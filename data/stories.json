@@ -1,0 +1,261 @@
+{
+    "stories": {
+        "1-0-0": {
+            "character": "おにいさん",
+            "text": "やあ、こんにちは！ひとりで、あそんでるの？",
+            "choices": [
+                {
+                    "choiceText": "そうだよ。でも、おかあさんに、すぐかえってって、いわれてるから！",
+                    "nextStoryId": "1-1-1"
+                },
+                {
+                    "choiceText": "しらないひととは、はなさないよ！",
+                    "nextStoryId": "1-2-1"
+                },
+                {
+                    "choiceText": "（なにもいわずに、そのばを、はなれる）",
+                    "nextStoryId": "1-3-1"
+                },
+                {
+                    "choiceText": "そうだよ。おにいさんは、だれ？",
+                    "nextStoryId": "1-4-1"
+                }
+            ],
+            "images": [
+                "../../../img/man/man_smile_front.png",
+                "../../../img/man/man_smile_front.png"
+            ],
+            "sequence": "1",
+            "situationId": "1"
+        },
+
+        "1-1-1": {
+            "character": "おにいさん",
+            "text": "そうなんだ。でも、おにいさんが、てじなを、みせてあげるよ。",
+            "choices": [
+                {
+                    "choiceText": "いらない！バイバイ！",
+                    "nextStoryId": "6"
+                },
+                {
+                    "choiceText": "どんな、てじな？",
+                    "nextStoryId": "7"
+                },
+                {
+                    "choiceText": "ほんとに、みせてくれるの？",
+                    "nextStoryId": "8"
+                },
+                {
+                    "choiceText": "おかあさんに、きいてみる！",
+                    "nextStoryId": "9"
+                }
+            ],
+            "images": [
+                "../../../img/man/man_smile_front.png",
+                "../../../img/man/man_smile_front.png"
+            ],
+            "sequence": "2",
+            "situationId": "1"
+        },
+        "1-1-2": {
+            "character": "おにいさん",
+            "text": "ほんとうに、おもしろい、てじななんだよ。こっちで、やるから、みにきて！",
+            "choices": [
+                {
+                    "choiceText": "やっぱり、いらない！",
+                    "nextStoryId": "1-safe"
+                },
+                {
+                    "choiceText": "すこしだけなら、いいよ！",
+                    "nextStoryId": "1-bad"
+                },
+                {
+                    "choiceText": "おまわりさんに、ほうこくするよ！",
+                    "nextStoryId": "1-safe"
+                },
+                {
+                    "choiceText": "なにをみせてくれるの？",
+                    "nextStoryId": "1-bad"
+                }
+            ],
+            "images": [
+                "../../../img/man/man_smile_front.png",
+                "../../../img/man/man_smile_front.png"
+            ],
+            "sequence": "3",
+            "situationId": "1"
+        },
+
+        "1-2-1": {
+            "character": "おにいさん",
+            "text": "こわがらなくても、だいじょうぶだよ。おにいさんは、おかあさんのともだちだよ。",
+            "choices": [
+                {
+                    "choiceText": "そうなの？",
+                    "nextStoryId": "1-2-2"
+                },
+                {
+                    "choiceText": "でも、はなさない！",
+                    "nextStoryId": "1-2-2"
+                },
+                {
+                    "choiceText": "じゃあ、おかあさんにきいてみる！",
+                    "nextStoryId": "1-2-2"
+                },
+                {
+                    "choiceText": "おかあさんのしりあいなら、だいじょうぶかな。",
+                    "nextStoryId": "1-2-2"
+                }
+            ],
+            "images": [
+                "../../../img/man/man_smile_front.png",
+                "../../../img/man/man_smile_front.png"
+            ],
+            "sequence": "2",
+            "situationId": "1"
+        },
+        "1-2-2": {
+            "character": "おにいさん",
+            "text": "おにいさんは、おかあさんから、こうえんにいるってきいたから、ここにきたんだよ。あっちであそぼう！",
+            "choices": [
+                {
+                    "choiceText": "じゃあ、すこしだけならいいよ。",
+                    "nextStoryId": "1-bad"
+                },
+                {
+                    "choiceText": "でも、いっしょにはあそべないよ。もう、いえにかえるね。",
+                    "nextStoryId": "1-safe"
+                },
+                {
+                    "choiceText": "そうなんだ！あっちで、なにしてあそぶ？",
+                    "nextStoryId": "1-bad"
+                },
+                {
+                    "choiceText": "（なにもいわずに、はしってにげる）",
+                    "nextStoryId": "1-safe"
+                }
+            ],
+            "images": [
+                "../../../img/man/man_smile_front.png",
+                "../../../img/man/man_smile_front.png"
+            ],
+            "sequence": "3",
+            "situationId": "1"
+        },
+
+        "1-3-1": {
+            "character": "おにいさん",
+            "text": "まってまって！ちょっとだけ、おはなししようよ。",
+            "choices": [
+                {
+                    "choiceText": "すこしならいいよ。",
+                    "nextStoryId": "1-3-2"
+                },
+                {
+                    "choiceText": "いやだ！",
+                    "nextStoryId": "1-3-2"
+                },
+                {
+                    "choiceText": "なにを、はなすの？",
+                    "nextStoryId": "1-3-2"
+                },
+                {
+                    "choiceText": "いそがしいから、むり！",
+                    "nextStoryId": "1-3-2"
+                }
+            ],
+            "images": [
+                "../../../img/man/man_smile_front.png",
+                "../../../img/man/man_smile_front.png"
+            ],
+            "sequence": "2",
+            "situationId": "1"
+        },
+        "1-3-2": {
+            "character": "おにいさん",
+            "text": "ほら、おかしもあるからさ！いっしょに、むこうでたべよう！",
+            "choices": [
+                {
+                    "choiceText": "いやだ！おかしなんて、いらない！",
+                    "nextStoryId": "1-sage"
+                },
+                {
+                    "choiceText": "すこしだけなら、いいよ。",
+                    "nextStoryId": "1-bad"
+                },
+                {
+                    "choiceText": "どんな、おかし？",
+                    "nextStoryId": "1-bad"
+                },
+                {
+                    "choiceText": "おかあさんに、だめっていわれたから、むり！",
+                    "nextStoryId": "1-safe"
+                }
+            ],
+            "images": [
+                "../../../img/man/man_smile_front.png",
+                "../../../img/man/man_smile_front.png"
+            ],
+            "sequence": "3",
+            "situationId": "1"
+        },
+
+        "1-4-1": {
+            "character": "おにいさん",
+            "text": "おにいさんは、こうえんの、かんりにんだよ。とくべつに、いいものをみせてあげる。",
+            "choices": [
+                {
+                    "choiceText": "なにをみせてくれるの？",
+                    "nextStoryId": "1-3-2"
+                },
+                {
+                    "choiceText": "かんりにんさんだったら、あんしん！",
+                    "nextStoryId": "1-3-2"
+                },
+                {
+                    "choiceText": "いやだ！",
+                    "nextStoryId": "1-3-2"
+                },
+                {
+                    "choiceText": "しらないひとだから、あそべない！",
+                    "nextStoryId": "1-3-2"
+                }
+            ],
+            "images": [
+                "../../../img/man/man_smile_front.png",
+                "../../../img/man/man_smile_front.png"
+            ],
+            "sequence": "2",
+            "situationId": "1"
+        },
+        "1-4-2": {
+            "character": "おにいさん",
+            "text": "あっちに、こねこがいるんだ。エサをあげにいこうよ。",
+            "choices": [
+                {
+                    "choiceText": "・・・（はしってにげる）",
+                    "nextStoryId": "1-sage"
+                },
+                {
+                    "choiceText": "こねこ、みてみたい！",
+                    "nextStoryId": "1-bad"
+                },
+                {
+                    "choiceText": "わーい！ねこ、だいすき！",
+                    "nextStoryId": "1-bad"
+                },
+                {
+                    "choiceText": "おかあさんに、だめっていわれたから、むり！",
+                    "nextStoryId": "1-safe"
+                }
+            ],
+            "images": [
+                "../../../img/man/man_smile_front.png",
+                "../../../img/man/man_smile_front.png"
+            ],
+            "sequence": "3",
+            "situationId": "1"
+        }
+    }
+}
+

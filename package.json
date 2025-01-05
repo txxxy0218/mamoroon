@@ -1,0 +1,15 @@
+{
+  "name": "tools",
+  "scripts": {
+    "import": "ts-node src/import_firestore.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "firebase-admin": "^11.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "node-firestore-import-export": "^1.1.0"
+  }
+}
